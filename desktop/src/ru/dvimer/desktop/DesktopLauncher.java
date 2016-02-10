@@ -9,7 +9,7 @@ public class DesktopLauncher {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.width = 1024;
 		config.height = 768;
-		System.setProperty("user.name","Dvimer");
+			System.setProperty("user.name","Dvimer");
 		new LwjglApplication(new Maint(), config);
 	}
 }
